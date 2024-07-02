@@ -14,12 +14,11 @@ export class PersonalInfoComponent {
     ['Education','MCA(2021-2023)']
   ];
 
+
   aboutMe: String[]=
   [
-    'Hi, I am Web Developer with 8 months of experience in industry.',
-    'Worked as a head of product Management in google for various technologies',
-    'Always eager to learn new technologies.',
-    'currently working as a CEO of google alphabet.'
+    'Dedicated Angular Developer with 8 months of experience in building dynamic and responsive web applications.',
+    'Highly enthusiastic about learning new technologies and maintaining a continuous learning approach to stay updated with industry trends and best practices.'
   ]
 
 }
