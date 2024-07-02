@@ -1,0 +1,19 @@
+:host {
+    display: block;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.host.pc .container {
+    display: grid;
+    gap: 2rem 4rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+:host.pc h1{
+    grid-column: 1/3;
+}
+
+:host.pc .section{
+    margin-top: 1rem;
+}
