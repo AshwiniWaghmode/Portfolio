@@ -102,3 +102,32 @@
     margin-bottom: 0;
     height: max-content;
 }
+
+.resume-download {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resume-download a {
+    text-decoration: none;
+}
+
+.resume-download button {
+    background-color: #69F0AE; /* Green background */
+    color: black; /* White text */
+    margin-right: 80%;
+    padding: 12px 24px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.resume-download button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.resume-download button:active {
+    transform: scale(0.98); /* Slightly reduce size on click */
+}
